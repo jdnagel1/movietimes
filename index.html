@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/scripts.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Movie Tickets</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-3">Spider-Man: Far From Home</div>
+                <div class="col-md-3">Toy Story 4</div>
+                <div class="col-md-3">Annabelle Comes Home</div>
+                <div class="col-md-3">Yesterday</div>               
+            </div>
+            <div class="row">
+                <div class="col-md-3">Aladdin</div>
+                <div class="col-md-3">Men in Black: International</div>
+                <div class="col-md-3">The Secret Life of Pets 2</div>
+                <div class="col-md-3">Stuber</div>               
+            </div>
+            <div class="row">
+                <div class="col-md-3">Crawl</div>
+                <div class="col-md-3">Avengers: Endgame</div>
+                <div class="col-md-3">Childs Play</div>
+                <div class="col-md-3">John Wick: Chapter 3 - Parabellum</div>               
+            </div>
+            <form>
+                <select class="form-control">
+                    <option value="spiderman">Spider-Man: Far From Home</option>
+                    <option value="toystory">Toy Story 4</option>
+                    <option value="annabelle">Annabelle Comes Home</option>
+                    <option value="yesterday">Yesterday</option>
+                    <option value="aladdin">Aladdin</option>
+                    <option value="mib">Men in Black: International</option>
+                    <option value="pets">The Secret Life of Pets 2</option>
+                    <option value="stuber">Stuber</option>
+                    <option value="crawl"></option>Crawl</option>
+                    <option value="avengers">Avengers: Endgame</option>
+                    <option value="childsplay">Childs Play</option>
+                    <option value="johnwick">John Wick: Chapter 3</option>
+                </select>
+                <div class="ticket-type">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                            Adult
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                            Child
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                            Senior
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
